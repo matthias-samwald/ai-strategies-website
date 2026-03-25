@@ -223,11 +223,11 @@ a:hover {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
+  width: 10px;
+  height: 2px;
+  border-radius: 1px;
   background: var(--accent);
-  opacity: 0.35;
+  opacity: 0.5;
 }
 
 /* Footer */
