@@ -246,13 +246,13 @@ footer .footer-inner {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
-  color: #bdbdbd;
+  color: rgba(37, 57, 81, 0.3);
   letter-spacing: -0.01em;
   margin-bottom: 0.5rem;
 }
 
 .footer-contact a {
-  color: #9e9e9e;
+  color: rgba(37, 57, 81, 0.4);
   border-bottom: none;
   font-size: 0.9rem;
   transition: color 0.15s ease;
