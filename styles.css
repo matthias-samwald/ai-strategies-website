@@ -186,23 +186,13 @@ a:hover {
   border-color: rgba(37, 57, 81, 0.2);
 }
 
-.bio-name {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 0.95rem;
-  color: var(--text);
-  margin-bottom: 0.15rem;
-}
-
-.bio-role {
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-  margin-bottom: 0.75rem;
-}
-
 .bio p {
   color: var(--text-secondary);
   margin-bottom: 0;
+}
+
+.bio strong {
+  color: var(--text);
 }
 
 /* Services list */
@@ -228,11 +218,11 @@ a:hover {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 10px;
-  height: 2px;
-  border-radius: 1px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
   background: var(--accent);
-  opacity: 0.5;
+  opacity: 0.35;
 }
 
 /* Footer */
@@ -251,13 +241,13 @@ footer .footer-inner {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
-  color: rgba(37, 57, 81, 0.3);
+  color: rgba(37, 57, 81, 0.45);
   letter-spacing: -0.01em;
   margin-bottom: 0.5rem;
 }
 
 .footer-contact a {
-  color: rgba(37, 57, 81, 0.4);
+  color: rgba(37, 57, 81, 0.55);
   border-bottom: none;
   font-size: 0.9rem;
   transition: color 0.15s ease;
