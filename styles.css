@@ -15,7 +15,7 @@
   --accent-hover: #1a2a3d;
   --accent-light: #E8F2FC;
   --border: rgba(37, 57, 81, 0.15);
-  --max-width: 720px;
+  --max-width: 640px;
 }
 
 html {
@@ -145,15 +145,8 @@ a:hover {
 }
 
 .bio {
-  background: var(--bg-muted);
-  border: 1px solid rgba(37, 57, 81, 0.08);
-  border-radius: 6px;
-  padding: 1.25rem 1.5rem;
-  transition: border-color 0.2s ease;
-}
-
-.bio:hover {
-  border-color: rgba(37, 57, 81, 0.2);
+  border-left: 2px solid var(--accent);
+  padding: 0 0 0 1.25rem;
 }
 
 .bio p {
@@ -220,7 +213,7 @@ a:hover {
   }
 
   .bio {
-    padding: 1rem 1.25rem;
+    padding: 0 0 0 1rem;
   }
 }
 
@@ -242,8 +235,7 @@ a:hover {
   }
 
   .bio {
-    background: none;
-    border: 1px solid #ccc;
+    border-left: 2px solid #999;
     break-inside: avoid;
   }
 
